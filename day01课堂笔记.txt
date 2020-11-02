@@ -24,3 +24,8 @@
     1.8、cls 清屏
     1.9、dir 查看当前目录下的有什么
     2.0、exit 退出dos命令窗口
+    2.1、del 删除一个或者多个文件
+        1.del *.txt 删除所有的txt文件（模糊匹配）
+        2.del 1.txt 删除1.txt文件
+    2.2、ipconfig（ip地址的配置信息）
+            ipcongfig /all :更详细的ip配置信息。包括网卡的物理地址（MAC），它具有全球唯一性。
