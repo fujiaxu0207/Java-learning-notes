@@ -1,0 +1,52 @@
+day04课堂笔记
+
+1、开发第一个程序HelloWorld
+	Java源代码只要修该必须重新编译
+	1.1、编译阶段
+		使用javac，在bin目录下。
+		必须配置环境才能使用
+		把D:\jdk-13\bin配置到path下
+		查看编译器版本 javac -version
+
+		查看虚拟机版本：java -version
+
+	1.2、运行阶段
+		到源代码路径下使用javac编译
+		编译报错时，不会输出字节码文件
+		使用字节码文件运行
+		使用java  类名运行，不能是使用java xxx.class
+
+		java 后面不能加路径，必须是类名
+
+2、对于java的JDK所属的环境变量，有一个叫做：JAVA_HOME
+	现在不需要配置。javaweb时使用Tomcat服务器时才需要配置
+
+3、在java HelloWorld时会发生什么？
+	第一步：启动JVM
+	第二步：JVM启动后，JVM会去启动“类加载器classloader”
+	类加载器的作用：加载类的。本质上是负责去硬盘上找对应的字节码文件(HellWorld.class)
+
+	第三步：类加载器（在当前路径找）如果找不到对应的字节码文件会报错
+				错误：找不到或无法加载主类
+			若找到了，则会将该字节码文件装载到JVM当中，JVM启动“解释器”将字节码解释为“0000101”，
+			则这种二进制码，os执行二进制码与硬件交互。
+
+	能不能给类加载器在指定的路径下寻找字节码文件？
+		可以的，但是需要设置环境变量:classpath
+		classpath是一个环境变量，是个类加载器指路的
+		而path属于windows操作系统
+		classpath是java所具有的
+
+
+	配置一下classpath配置一下：
+	配置了classpath后只会在配置的路径找，所有目前为止，classpath不用配置！！！
+		
+
+	结论：到目前为止，classpath这个环境变量并不需要配置
+			但是必须了解classpath是干什么用的。
+
+	目前有三个环境变量了：path  java_home  classpath
+
+	
+
+
