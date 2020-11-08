@@ -36,4 +36,16 @@
                   ping www.baidu.com -t （一直ping，查看网络是否稳定）
 
             想强行终止命令的运行：ctrl + c
-    
+2.文本编辑快捷键：
+    重做：ctrl+y
+    回到行首：home
+    回到行尾：end
+    光标在行尾怎么选中一行：shift + home
+    光标在行首怎么选中一行：shift + end
+    回到文件头：ctrl + home
+    回到文件尾：ctrl + end
+    查找：ctrl + f
+
+    选择一个单词：鼠标双击（ctrl + shift + 左/右箭头）
+    寻选择一行：鼠标三击
+
