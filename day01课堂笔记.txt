@@ -29,3 +29,7 @@
         2.del 1.txt 删除1.txt文件
     2.2、ipconfig（ip地址的配置信息）
             ipcongfig /all :更详细的ip配置信息。包括网卡的物理地址（MAC），它具有全球唯一性。
+	2.3、怎么查看两台计算机是否可以正常通信？
+            使用ping命令
+                ping ip地址/域名
+            比如：ping www.baidu.com
