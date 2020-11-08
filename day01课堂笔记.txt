@@ -32,4 +32,8 @@
 	2.3、怎么查看两台计算机是否可以正常通信？
             使用ping命令
                 ping ip地址/域名
-            比如：ping www.baidu.com
+            比如：ping www.baidu.com （只能来回通信4次）
+                  ping www.baidu.com -t （一直ping，查看网络是否稳定）
+
+            想强行终止命令的运行：ctrl + c
+    
