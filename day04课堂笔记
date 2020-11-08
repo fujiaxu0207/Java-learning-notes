@@ -46,7 +46,22 @@ day04课堂笔记
 			但是必须了解classpath是干什么用的。
 
 	目前有三个环境变量了：path  java_home  classpath
+4、关于第一个代码的解释说明(HelloWorld代码 中)
+		javadoc注释
+		/**
+		*
+		*
+		*/
 
-	
+5、public class 和 class 有什么区别？
+	一个java文件中可以定义多个class类。
 
+	public类不是必须的
 
+	只要有一个class的定义，那么必然会对应生成一个class文件
+
+	如果有public class 类型必须与java文件名相同
+
+	public有的话，只能有一个
+
+6、java在不同的类中定义多个main的入口，但是没必要
